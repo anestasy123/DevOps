@@ -1,7 +1,0 @@
----
-# tasks file for mysql
-    - name: install mysql
-      apt:
-        name: mysql-server
-      notify:
-        - restart mysql
